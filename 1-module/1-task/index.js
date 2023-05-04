@@ -3,10 +3,10 @@ function factorial(n){
   if (n == 0 || n == 1){
     return chislo;
   }
-  else if(n > 1){
-    for(i = n; i >= 1; i--){
+  
+    for(i = n; i > 1; i--){
       chislo = chislo * i;
     }
     return chislo;
-     }
+     
  }

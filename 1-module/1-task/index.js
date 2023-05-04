@@ -8,9 +8,5 @@ function factorial(n){
       chislo = chislo * i;
     }
     return chislo;
-    chislo = factorial(n);
-  }
-  else{
-    return "Число должно быть положительным"
-  }  
-}
+     }
+ }
